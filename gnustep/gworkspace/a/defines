@@ -1,0 +1,6 @@
+PKGNAME=gworkspace
+PKGDES="GNUStep Workspace"
+PKGSEC=gnustep
+PKGDEP="gnustep-base gnustep-gui gnustep-back"
+ABSHADOW=no
+USECLANG=yes

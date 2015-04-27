@@ -1,0 +1,4 @@
+PKGNAME=binutils+cross-i686-pc-linux-gnu
+PKGDEP="glibc"
+PKGSEC=devel
+PKGDES="Binutils for i386(i686) cross compile"

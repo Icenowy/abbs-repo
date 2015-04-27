@@ -1,0 +1,4 @@
+PKGNAME=binutils+cross-armv7a-hardfloat-linux-gnueabi
+PKGDEP="glibc"
+PKGSEC=devel
+PKGDES="Binutils for armv7+a (Mainly for ARM Cortex-A Series) cross compile"

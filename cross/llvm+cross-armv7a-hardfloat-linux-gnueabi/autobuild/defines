@@ -1,0 +1,30 @@
+PKGNAME=llvm+cross-armv7a-hardfloat-linux-gnueabi
+PKGSEC=devel
+PKGDEP="llvm perl python-2"
+PKGDES="Low Level Virtual Machine Infrastructure"
+
+#
+# RPM hacks
+#
+
+ABRPMAUTOPROVONLY=yes
+
+#
+# LTO breaks binary, NOSTATIC breaks development capabilities.
+#
+
+NOSTATIC=no
+NOLTO=yes
+
+#
+# Extra provides, acts like package name aliases.
+#
+
+PKGPROV="clang"
+
+#
+# Use clang to build it
+#
+
+USE_CLANG=yes
+USECLANG=yes
